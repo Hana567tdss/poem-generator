@@ -1,3 +1,49 @@
 body{
-    
+   background-color: antiquewhite;  
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+a{
+    color: rgb(154, 97, 207);
+}
+.container{
+    margin: 120px auto;
+    max-width: 400px;
+}
+h1{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.5;
+    color:rgb(169, 100, 233);
+    text-align: center;
+
+}
+form{
+    padding:30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+.instructions{
+padding: 16px;
+width: 80%;
+line-height: 20px;
+color:black
+}
+.submit-button{
+margin-left: 10px;
+background-color: rgb(154, 97, 207);
+color:white;
+padding:4px;
+border-radius: 12px;
+}
+
+.poem{
+    font-size: 14px;
+    background-color: white;
+    padding: 20px;
+    line-height: 24px;
+    margin-top: 12px;
+    border-left: 3px solid rgb(154, 97, 207);
 }
