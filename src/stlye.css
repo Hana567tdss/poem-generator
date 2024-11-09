@@ -29,7 +29,9 @@ form{
 padding: 16px;
 width: 80%;
 line-height: 20px;
-color:black
+color:black;
+border-radius: 8px ;
+border-color: rgb(121, 29, 207);
 }
 .submit-button{
 margin-left: 10px;
@@ -37,6 +39,7 @@ background-color: rgb(154, 97, 207);
 color:white;
 padding:4px;
 border-radius: 12px;
+padding: 18px;
 }
 
 #poem{
@@ -46,4 +49,7 @@ border-radius: 12px;
     line-height: 24px;
     margin-top: 12px;
     border-left: 3px solid rgb(154, 97, 207);
+}
+strong{
+    color:rgb(133, 81, 183)
 }
