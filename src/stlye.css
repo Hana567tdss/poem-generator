@@ -25,6 +25,11 @@ form{
     border-radius: 10px;
     display: flex;
 }
+.hint {
+    background-color: white;
+    display: flex; 
+    margin-bottom: 30px;
+}
 .instructions{
 padding: 16px;
 width: 80%;
@@ -42,7 +47,7 @@ border-radius: 12px;
 padding: 18px;
 }
 
-#poem{
+.poem{
     font-size: 14px;
     background-color: white;
     padding: 20px;
@@ -50,6 +55,18 @@ padding: 18px;
     margin-top: 12px;
     border-left: 3px solid rgb(154, 97, 207);
 }
+.hidden{
+    display:none;
+}
 strong{
     color:rgb(133, 81, 183)
+}
+
+@keyframes blink {
+    50%{
+        opacity: 0.0;
+    }
+}
+.blink {
+    animation: blink 1s  step-start 0s infinite 
 }
